@@ -1,0 +1,19 @@
+{
+  "name": "mit-licence",
+  "description": "Hosted MIT License with details controlled through this repo",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx nodemon app.js",
+    "ngrok": "./ngrok http 4000"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "body-parser-xml": "2.0.3",
+    "express": "^4.17.1",
+    "helmet": "6.0.1",
+    "nodemon": "2.0.22",
+    "serverless-http": "3.2.0"
+  } 
+}
